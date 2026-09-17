@@ -8,7 +8,7 @@ export default defineConfig({
     tailwindcss()
   ],
   server: {
-    host: 'localhost',
+    host: true,   // ✅ binds to 0.0.0.0, works everywhere including Docker/Render preview
     port: 5173
   }
 });
