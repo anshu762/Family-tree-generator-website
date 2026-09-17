@@ -455,7 +455,7 @@ export default function Contact() {
             </p>
             <div className="flex items-center gap-6 text-sm text-gray-500">
               <Link to="/privacy" className="hover:text-primary transition">Privacy</Link>
-              <Link to="/terms" className="hover:text-primary transition">Terms</Link>
+              <Link to="/" className="hover:text-primary transition">Terms</Link>
               <Link to="/about" className="hover:text-primary transition">About</Link>
             </div>
           </div>
