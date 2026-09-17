@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#logoGrad)"/>
+  <path d="M32 20 L22 34 M32 20 L42 34 M22 34 L22 44 M42 34 L42 44"
+        stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <circle cx="32" cy="16" r="6" fill="#fff"/>
+  <circle cx="22" cy="34" r="5" fill="#fff" opacity="0.95"/>
+  <circle cx="42" cy="34" r="5" fill="#fff" opacity="0.95"/>
+  <circle cx="22" cy="46" r="4" fill="#fff" opacity="0.85"/>
+  <circle cx="42" cy="46" r="4" fill="#fff" opacity="0.85"/>
+  <text x="72" y="30" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="#111827">Family</text>
+  <text x="72" y="52" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="url(#logoGrad)">Tree</text>
+</svg>
